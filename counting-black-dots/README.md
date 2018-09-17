@@ -31,4 +31,4 @@ As you can see, we have clearly found all the black dots in the image.
 As you can see, we have clearly count total number of black dots.
 
 + Moreover, the same concept can be used to detect, count or analyse dots, shapes or object of any colour in an image or video and concept of perspective 
-tranformation can be added to add another feature to the program. 
+transformation can be added to add another feature to the program. 
