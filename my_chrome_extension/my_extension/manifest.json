@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "iamRkahecha",
+	"description": "Quick Launch My shortcuts",
+	"version": "1.0.0",
+	"icons": {"128":"icon2.png"},
+	"browser_action": {
+		"default_icon": "icon2.png",
+		"default_popup":"popup.html"
+	},
+	"permissions":["activeTab"]
+}
