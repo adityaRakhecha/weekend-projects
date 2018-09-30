@@ -8,3 +8,4 @@
 ![extension2](https://user-images.githubusercontent.com/25251763/46247464-6ad75400-c429-11e8-80cb-dc09e9c69c62.png)
 
 + For more details and help check this [official documentation](https://developer.chrome.com/extensions/devguide).
++ Since the pattern I have used in manifest.json file makes this extension a cross browser extension which simply means you can add this extension to any browser and can use it without making any different version of it for different browser. 
