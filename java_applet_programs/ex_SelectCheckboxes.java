@@ -3,10 +3,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
-<applet code="ex_SelectCheckboxes" height=500 width=500></applet>
+<applet code="ex_SelectCheckBoxes" height=500 width=500></applet>
 */
 
-public class ex_SelectCheckboxes extends Applet implements ItemListener
+public class ex_SelectCheckBoxes extends Applet implements ItemListener
 {
 	String msg = "";
 	Checkbox sAll, op1, op2, op3, op4;
@@ -34,14 +34,24 @@ public class ex_SelectCheckboxes extends Applet implements ItemListener
 
 	public void itemStateChanged(ItemEvent ie)
 	{
-		if(sAll.getState() == true)
+		if(ie.getSource() == sAll)
 		{
-			op1.setState(true);
-			op2.setState(true);
-			op3.setState(true);
-			op4.setState(true);
+			if(sAll.getState() == true)
+			{
+				op1.setState(true);
+				op2.setState(true);
+				op3.setState(true);
+				op4.setState(true);
+			}
+			else
+			{
+				op1.setState(false);
+				op2.setState(false);
+				op3.setState(false);
+				op4.setState(false);
+			}
 		}
+		
 		repaint();
 	}
-
 }
